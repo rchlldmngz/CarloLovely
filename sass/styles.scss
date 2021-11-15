@@ -45,7 +45,7 @@ h6 {
     font-size: 50px;
     letter-spacing: 0px;
     line-height: 29px;
-    font-family: 'olivia dhorgent', sans-serif;
+    font-family: 'aerotis', sans-serif;
     padding-top: 40px;
                                                 
 }
@@ -834,8 +834,11 @@ header .member-actions {
     width: 100%;
 }
 
+#swatches img {
+    width: 10%
+}
+
 #wear img,
-#swatches img,
 #gift img {
     width: 70%
 }
@@ -1026,7 +1029,7 @@ header .member-actions {
 
 .rsvp .rsvp-form .form-input-group i.fa-user,
 .rsvp .rsvp-form .form-input-group i.fa-users,
-.rsvp .rsvp-form .form-input-group i.fa-tag,
+.rsvp .rsvp-form .form-input-group i.fa-tags,
 .rsvp .rsvp-form .form-input-group i.fa-bookmark,
 .rsvp .rsvp-form .form-input-group i.fa-phone,
 .rsvp .rsvp-form .form-input-group .fa-key {
@@ -1127,23 +1130,4 @@ iframe {
 
 .form-check-label {
     font-weight: 300;
-}
-
-label,
-textarea {
-    font-size: .8rem;
-    letter-spacing: 1px;
-}
-textarea {
-    padding: 10px;
-    max-width: 100%;
-    line-height: 1.5;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    box-shadow: 1px 1px 1px #999;
-}
-
-label {
-    display: block;
-    margin-bottom: 10px;
 }
